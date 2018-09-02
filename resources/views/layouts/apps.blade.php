@@ -156,7 +156,7 @@
     <div id="copyright">
         <div class="layer-stretch">
             <div class="paragraph-medium paragraph-white">
-                2018 © ALL RIGHTS RESERVED.
+                2018 © ALL RIGHTS.
             </div>
         </div>
     </div><!-- End of Copyright Section -->

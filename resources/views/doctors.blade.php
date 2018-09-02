@@ -10,11 +10,11 @@
                     <div id="hdr-social">
                         <ul class="social-list social-list-sm">
                             <li><a class="width-auto font-13">Follow Us : </a></li>
-                            <li><a href="https://www.facebook.com/pepdevofficial" target="_blank" id="hdr-facebook" ><i class="fa fa-facebook" ></i></a><span class="mdl-tooltip mdl-tooltip--bottom" for="hdr-facebook">Facebook</span></li>
-                            <li><a href="https://twitter.com/pepdevofficial" target="_blank" id="hdr-twitter" ><i class="fa fa-twitter" ></i></a><span class="mdl-tooltip mdl-tooltip--bottom" for="hdr-twitter">Twitter</span></li>
-                            <li><a href="https://plus.google.com/110823961031348424693" target="_blank" id="hdr-google" ><i class="fa fa-google" ></i></a><span class="mdl-tooltip mdl-tooltip--bottom" for="hdr-google">Google</span></li>
-                            <li><a href="https://www.instagram.com/pepdevofficial/" target="_blank" id="hdr-instagram" ><i class="fa fa-instagram" ></i></a><span class="mdl-tooltip mdl-tooltip--bottom" for="hdr-instagram">Instagram</span></li>
-                            <li><a href="https://www.youtube.com/channel/UCRuPHwjNznZilEvlGIr1Y1Q" target="_blank" id="hdr-youtube" ><i class="fa fa-youtube" ></i></a><span class="mdl-tooltip mdl-tooltip--bottom" for="hdr-youtube">Youtube</span></li>
+                            <li><a href="https://www.facebook.com/" target="_blank" id="hdr-facebook" ><i class="fa fa-facebook" ></i></a><span class="mdl-tooltip mdl-tooltip--bottom" for="hdr-facebook">Facebook</span></li>
+                            <li><a href="https://twitter.com/" target="_blank" id="hdr-twitter" ><i class="fa fa-twitter" ></i></a><span class="mdl-tooltip mdl-tooltip--bottom" for="hdr-twitter">Twitter</span></li>
+                            <li><a href="https://plus.google.com/" target="_blank" id="hdr-google" ><i class="fa fa-google" ></i></a><span class="mdl-tooltip mdl-tooltip--bottom" for="hdr-google">Google</span></li>
+                            <li><a href="https://www.instagram.com/" target="_blank" id="hdr-instagram" ><i class="fa fa-instagram" ></i></a><span class="mdl-tooltip mdl-tooltip--bottom" for="hdr-instagram">Instagram</span></li>
+                            <li><a href="https://www.youtube.com/channel/" target="_blank" id="hdr-youtube" ><i class="fa fa-youtube" ></i></a><span class="mdl-tooltip mdl-tooltip--bottom" for="hdr-youtube">Youtube</span></li>
                             {{--<li><a href="https://www.linkedin.com/" target="_blank" id="hdr-linkedin" ><i class="fa fa-linkedin" ></i></a><span class="mdl-tooltip mdl-tooltip--bottom" for="hdr-linkedin">Linkedin</span></li>--}}
                         </ul>
                     </div>
@@ -129,7 +129,7 @@
             <div class="col-sm-6 col-md-4">
 				<div class="theme-block theme-block-hover animated animated-up">
 	<div class="theme-block-picture">
-		<img src="public/uploads/doctor-1.jpg" alt="Daniel Barnes">
+		<img src="{{ asset('uploads/doctor-1.jpg') }}" alt="Daniel Barnes">
 	</div>
 	<div class="doctor-name">
 		<h4><a>Daniel Barnes</a></h4>
@@ -157,7 +157,7 @@
 						<div class="col-sm-6 col-md-4">
 				<div class="theme-block theme-block-hover animated animated-up">
 	<div class="theme-block-picture">
-		<img src="public/uploads/doctor-2.jpg" alt="Melissa Bates">
+		<img src="{{ asset('uploads/doctor-2.jpg') }}" alt="Melissa Bates">
 	</div>
 	<div class="doctor-name">
 		<h4><a>Melissa Bates</a></h4>
@@ -185,7 +185,7 @@
 						<div class="col-sm-6 col-md-4">
 				<div class="theme-block theme-block-hover animated animated-up">
 	<div class="theme-block-picture">
-		<img src="public/uploads/doctor-4.jpg" alt="Cheri Aria">
+		<img src="{{ asset('uploads/doctor-4.jpg') }}" alt="Cheri Aria">
 	</div>
 	<div class="doctor-name">
 		<h4><a>Cheri Aria</a></h4>
@@ -213,7 +213,7 @@
 						<div class="col-sm-6 col-md-4">
 				<div class="theme-block theme-block-hover animated animated-up">
 	<div class="theme-block-picture">
-		<img src="public/uploads/doctor-3.jpg" alt="Steve Soeren">
+		<img src="{{ asset('uploads/doctor-3.jpg') }}" alt="Steve Soeren">
 	</div>
 	<div class="doctor-name">
 		<h4><a>Steve Soeren</a></h4>
@@ -241,7 +241,7 @@
 						<div class="col-sm-6 col-md-4">
 				<div class="theme-block theme-block-hover animated animated-up">
 	<div class="theme-block-picture">
-		<img src="public/uploads/doctor-6.jpg" alt="Theodore Bennett">
+		<img src="{{ asset('uploads/doctor-6.jpg') }}" alt="Theodore Bennett">
 	</div>
 	<div class="doctor-name">
 		<h4><a>Theodore Bennett</a></h4>
@@ -269,7 +269,7 @@
 						<div class="col-sm-6 col-md-4">
 				<div class="theme-block theme-block-hover animated animated-up">
 	<div class="theme-block-picture">
-		<img src="public/uploads/doctor-8.jpg" alt="Barbara Baker">
+		<img src="{{ asset('uploads/doctor-5.jpg') }}" alt="Barbara Baker">
 	</div>
 	<div class="doctor-name">
 		<h4><a>Barbara Baker</a></h4>
@@ -297,7 +297,7 @@
 						<div class="col-sm-6 col-md-4">
 				<div class="theme-block theme-block-hover animated animated-up">
 	<div class="theme-block-picture">
-		<img src="public/uploads/doctor-10.jpg" alt="Linda Adams">
+		<img src="{{ asset('uploads/doctor-10.jpg') }}" alt="Linda Adams">
 	</div>
 	<div class="doctor-name">
 		<h4><a>Linda Adams</a></h4>
@@ -325,7 +325,7 @@
 						<div class="col-sm-6 col-md-4">
 				<div class="theme-block theme-block-hover animated animated-up">
 	<div class="theme-block-picture">
-		<img src="public/uploads/doctor-9.jpg" alt="Janet Collins">
+		<img src="{{ asset('uploads/doctor-9.jpg') }}" alt="Janet Collins">
 	</div>
 	<div class="doctor-name">
 		<h4><a>Janet Collins</a></h4>
@@ -353,7 +353,7 @@
 						<div class="col-sm-6 col-md-4">
 				<div class="theme-block theme-block-hover animated animated-up">
 	<div class="theme-block-picture">
-		<img src="public/uploads/doctor-11.jpg" alt="Vedhraj Jain">
+		<img src="{{ asset('uploads/doctor-11.jpg') }}" alt="Vedhraj Jain">
 	</div>
 	<div class="doctor-name">
 		<h4><a>Vedhraj Jain</a></h4>
@@ -381,7 +381,7 @@
 						<div class="col-sm-6 col-md-4">
 				<div class="theme-block theme-block-hover animated animated-up">
 	<div class="theme-block-picture">
-		<img src="public/uploads/doctor-5.jpg" alt="Emily Rasberry">
+		<img src="{{ asset('uploads/doctor-5.jpg') }}" alt="Emily Rasberry">
 	</div>
 	<div class="doctor-name">
 		<h4><a>Emily Rasberry</a></h4>
@@ -409,7 +409,7 @@
 						<div class="col-sm-6 col-md-4">
 				<div class="theme-block theme-block-hover animated animated-up">
 	<div class="theme-block-picture">
-		<img src="public/uploads/doctor-12.jpg" alt="Nancy Allen">
+		<img src="{{ asset('uploads/doctor-12.jpg') }}" alt="Nancy Allen">
 	</div>
 	<div class="doctor-name">
 		<h4><a>Nancy Allen</a></h4>

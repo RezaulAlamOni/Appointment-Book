@@ -268,7 +268,7 @@
 		<div class="layer-stretch">
 			<div class="layer-wrapper">
 				<div class="layer-ttl">
-					<h3 class="animated animated-down">Our Time Table</h3>
+					<h3 class="animated animated-down">Appointment Avaiable Time</h3>
 				</div>
 				<div class="layer-container">
 										<div class="tt-block animated animated-up">
